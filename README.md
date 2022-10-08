@@ -1,2 +1,2 @@
 # web-copy
-https://charlsraven.github.io/web-copy/index.html
+https://charlsraven.github.io/web-copy
