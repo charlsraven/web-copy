@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Todos</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="">
+</head>
+
+<body>
+    <header>
+        <h1>todos</h1>
+    </header>
+    <main class="main">
+        <div class="input">
+            <button class="select_all" data-message="select all">select all</button>
+            <input type="text" placeholder="What needs to be done?" area-label="Add new item" autofocus="autofocus">
+        </div>
+        <div class="tasks_block">
+            <ul>
+                <li class="task">
+                    <div class="completed">
+                        <input type="checkbox" area-label="Completed task:">
+                    </div>
+                    <span class="task_text"></span>
+                    <button class="delete" data-message="delete this task"></button>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="left">
+                items left
+            </div>
+            <div class="sorting">
+                <input type="radio" id="all" name="sorting" value="all" checked>
+                <label for="all">All</label>
+                <input type="radio" id="active" name="sorting" value="active">
+                <label for="active">Active</label>
+                <input type="radio" id="complited" name="sorting" value="complited">
+                <label for="complited">Complited</label>
+            </div>
+            <div class="clear">
+                <button placeholder="Clear complited" data-message="clear completed"></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
